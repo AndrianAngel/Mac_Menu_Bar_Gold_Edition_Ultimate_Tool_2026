@@ -1,0 +1,340 @@
+<div align="center">
+
+# ❤️ MAC MENU BAR — GOLD EDITION
+### A macOS-style menu bar for Windows — built with AutoIt
+**Version 1.0.4.3 · Release 26-06-09**
+© AndrianAngel — All rights reserved
+
+</div>
+
+---
+
+## 📦 Download
+
+| File | Description |
+|------|-------------|
+| `Mac_Menu_Bar_Gold_Edition_Release_26_06_09_FINAL_V1_0_4_3.exe` | Standalone 64-bit executable — run directly, no install needed |
+| `Mac_Menu_Bar_Gold_Edition_Release_26_06_09_FINAL_V1_0_4_3.zip` | Archive containing the same 64-bit executable |
+
+> Single instance enforced — only one copy runs at a time.
+
+---
+
+## 🛠️ Settings GUI
+
+The settings panel is where you configure every aspect of the bar — appearance, behavior, menus, hotkeys, and more.
+
+---
+
+### 🔰 General & Jump To Paths
+
+| General | Jump To Paths |
+|---------|---------------|
+| 
+
+![S1](Images/S1.png)
+
+ | 
+
+![S2](Images/S2.png)
+
+ |
+
+**General** — Control the bar height, font weight, startup behavior, reserved screen space (working area), bar visibility toggle hotkey, and the main icon path (`icons\mac.ico`).
+
+**Jump To Paths** — Configure up to 11 instant-access folder shortcuts (Startup, Temp, Downloads, Documents, Videos, Pictures, Music, AppData, Program Files, etc.) each with its own assignable hotkey (`Ctrl+Shift+1` through `Ctrl+Shift+B` by default).
+
+---
+
+### 🔰 Resize Presets & Apps
+
+| Resize Presets | Apps |
+|----------------|------|
+| 
+
+![S3](Images/S3.png)
+
+ | 
+
+![S4](Images/S4.png)
+
+ |
+
+**Resize Presets** — Define up to 9 window size presets (e.g. 640×480, 1280×720, 1920×1080) with custom hotkeys (`Ctrl+Shift+F1`–`F9` by default). Apply any preset instantly to the active window.
+
+**Apps** — Assign up to 12 custom app shortcuts with a label, path/command, and hotkey. Launch your most-used apps directly from the bar's Apps menu.
+
+---
+
+### 🔰 Extra & Advanced
+
+| Extra | Advanced |
+|-------|----------|
+| 
+
+![S5](Images/S5.png)
+
+ | 
+
+![S6](Images/S6.png)
+
+ |
+
+**Extra** — Additional hotkeys including the Settings shortcut (`Ctrl+H` by default), the desktop icons toggle (`Alt+Q`), and the hidden window manager shortcuts (`Ctrl+Alt+W` hide / `Ctrl+Alt+H` unhide one / `Ctrl+Alt+U` unhide all).
+
+**Advanced** — Fine-tune Virtual Desktop hotkeys, configure the Username display and Home Folder path, enable or disable the Date & Time widget, and manage the Custom App Name feature (see App Name section below).
+
+---
+
+## 🚩 Tray Menu & System
+
+| Tray Menu | System Info |
+|-----------|-------------|
+| 
+
+![T1](Images/T1.png)
+
+ | 
+
+![T2](Images/T2.png)
+
+ |
+
+**Tray Menu** — Right-click the system tray icon to access quick toggles, show/hide the bar, open settings, or exit the application.
+
+**System** — The About → System dialog shows live hardware and OS information: Windows version, build number, CPU, RAM, GPU, and disk usage — all pulled directly from the running system.
+
+---
+
+## ⚔️ Main Bar
+
+---
+
+### 💎 MyStart (Start Menu)
+
+| MyStart Launcher | MyStart — My Own Config |
+|------------------|-------------------------|
+| 
+
+![A1](Images/A1.png)
+
+ | 
+
+![A2](Images/A2.png)
+
+ |
+
+**MyStart** is a custom mini-launcher that opens on a hotkey (`End` key by default, held with `Left Ctrl`). It scans a configurable folder for `.lnk` shortcuts and displays up to 16 of them as icon tiles.
+
+**Configuration tip — don't use the default Desktop folder.** Create a dedicated folder anywhere you like, fill it with your own `.lnk` shortcut files and custom `.ico` icons, then point MyStart at that folder in Settings. This gives you a clean, curated launcher completely separate from your Desktop clutter — exactly like the example shown above.
+
+The bar itself also uses `icons\a1.ico` as the clickable MyStart button icon on the far left — replace it with any icon you want.
+
+---
+
+### 💎 App Name Menu & Quick Actions
+
+| App Name Menu | Quick Actions Menu |
+|---------------|--------------------|
+| 
+
+![A3](Images/A3.png)
+
+ | 
+
+![A4](Images/A4.png)
+
+ |
+
+**App Name** — The leftmost button on the bar always shows the name of the currently active application. Clicking it opens a context menu for that app. You can assign a **custom display name** to any process via the Custom App Name feature (`Ctrl+G` by default): map any `.exe` name to whatever label you want shown in the bar. The bar's own process is automatically registered as `"MyStart"`.
+
+**Quick Actions** — One-click access to the most common window operations without opening a submenu.
+
+---
+
+### 💎 Settings Menu & Jump To Menu
+
+| Settings Menu | Jump To Menu |
+|---------------|--------------|
+| 
+
+![A5](Images/A5.png)
+
+ | 
+
+![A6](Images/A6.png)
+
+ |
+
+**Settings Menu** — Direct links to 19 Windows system panels: Main Settings, Personalization, Windows Security, Apps & Features, Default Apps, Task Manager, Control Panel, Device Manager, Services, Firewall, Disk Cleanup, and more — all in one click.
+
+**Jump To Menu** — Instantly open any of your configured folders in Explorer. Fully customizable paths and hotkeys from the Settings GUI.
+
+---
+
+### 💎 Tools Menu & Window Position Menu
+
+| Tools Menu | Window Position Menu |
+|------------|----------------------|
+| 
+
+![A7](Images/A7.png)
+
+ | 
+
+![A8](Images/A8.png)
+
+ |
+
+**Tools** — Built-in shortcuts to system utilities: Mouse Pointer settings, Power Options, Action Recorder (PSR), Power & Sleep, Date & Time, Screenshot (`Win+Shift+S`), UAC Settings, DirectX Diagnostic, CMD, CMD (Admin), PowerShell, and PowerShell (Admin).
+
+**Window Position** — Snap the active window to any of 9 positions on screen: Up, Down, Left, Right, Center, and all four corners — each with its own assignable hotkey (`Alt+Numpad` by default).
+
+---
+
+### 💎 Resize Menu & Action Menu
+
+| Resize Menu | Action Menu |
+|-------------|-------------|
+| 
+
+![A9](Images/A9.png)
+
+ | 
+
+![A10](Images/A10.png)
+
+ |
+
+**Resize** — Apply any of your 9 configured size presets to the active window instantly, with hotkey support.
+
+**Action** — Minimize the active window, minimize all others, minimize everything, restore the last minimized window, or restore all — all with dedicated hotkeys (`Alt+E`, `Alt+I`, `Alt+G`, `Ctrl+Alt+Z`, `Ctrl+Alt+G`).
+
+---
+
+### 💎 Apps Menu & VD Menu
+
+| Apps Menu | VD Menu |
+|-----------|---------|
+| 
+
+![A11](Images/A11.png)
+
+ | 
+
+![A12](Images/A12.png)
+
+ |
+
+**Apps** — Launch any of your 12 configured applications directly from the bar, with hotkey support.
+
+**VD (Virtual Desktop)** — Full Windows Virtual Desktop management: go to a desktop (`Ctrl+Numpad1–9`), throw the active window and follow (`Ctrl+Win+Numpad1–9`), throw without following (`Win+Alt+Numpad1–9`), create a new desktop (`Alt+F12`), remove the current one (`Alt+F11`), pin/unpin the active window (`Alt+Numpad0`), and integrate with Rainmeter VDN skins.
+
+---
+
+### 💎 About Menu
+
+| About |
+|-------|
+| 
+
+![A13](Images/A13.png)
+
+ |
+
+Displays version info, credits, and links. Also opens the live System Info dialog.
+
+---
+
+### 📌 Username & Date and Time
+
+| Username | Date and Time |
+|----------|---------------|
+| 
+
+![A14](Images/A14.png)
+
+ | 
+
+![A15](Images/A15.png)
+
+ |
+
+**Username** — Displays the current Windows username on the right side of the bar. Clicking it opens the configured Home Folder in Explorer (customizable path in Advanced settings).
+
+**Date and Time** — Live clock displayed on the bar's right side. Can be enabled/disabled from Advanced settings.
+
+---
+
+## 🎦 Watch Demo
+
+---
+
+### ✅ All Settings & Help Overview
+
+
+![D1](Gif/D1.gif)
+
+
+
+---
+
+### ✅ MyStart In Action + Hide Window
+
+
+![D2](Gif/D2.gif)
+
+
+
+---
+
+### ✅ Settings + Jump To + Tools + Apps In Action
+
+
+![D3](Gif/D3.gif)
+
+
+
+---
+
+### ✅ Action Menu — Minimize In Action
+
+
+![D4](Gif/D4.gif)
+
+
+
+---
+
+### ✅ About Menu · System · Username · Date and Time
+
+
+![D5](Gif/D5.gif)
+
+
+
+---
+
+### ✅ Virtual Desktop (Throw Follow / Go To / Throw No Follow / Rainmeter / Flyout)
+
+
+![D6](Gif/D6.gif)
+
+
+
+---
+
+### ✅ Toggle Desktop Icons (Fade In / Fade Out)
+
+
+![D7](Gif/D7.gif)
+
+
+
+---
+
+<div align="center">
+
+© AndrianAngel — All rights reserved
+
+</div>
