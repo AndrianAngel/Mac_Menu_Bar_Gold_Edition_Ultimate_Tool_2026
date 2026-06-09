@@ -13,6 +13,16 @@
 
 | File | Description |
 |------|-------------|
+| `Mac_Menu_Bar_Gold_Edition_Release_26_06_09_FINAL_V1_0_4_3.exe` | 64-bit standalone executable — run directly, no install needed |
+| `Mac_Menu_Bar_Gold_Edition_Release_26_06_09_FINAL_V1_0_4_3.zip` | Same executable packaged as a zip archive |
+| `MyVDW.rmskin` | Rainmeter skin for Virtual Desktop integration |
+| `MyVDW.zip` | Same Rainmeter skin packaged as a zip archive |
+| `Icons.zip` | Icon pack — includes `a1.ico` for the top-left MyStart button |
+
+---
+
+| File | Description |
+|------|-------------|
 | `Mac_Menu_Bar_Gold_Edition_Release_26_06_09_FINAL_V1_0_4_3.exe` | Standalone 64-bit executable — run directly, no install needed |
 | `Mac_Menu_Bar_Gold_Edition_Release_26_06_09_FINAL_V1_0_4_3.zip` | Archive containing the same 64-bit executable |
 
@@ -489,6 +499,18 @@ Live clock displayed on the bar's right side. Can be enabled/disabled from Advan
 
 
 ![D7](Gif/D7.gif)
+
+---
+
+### 🔖 What's New in v1.0.4.3
+- Gold Edition final release
+- Full Virtual Desktop engine with Rainmeter VDN integration
+- MyStart custom launcher with custom folder, `.lnk` + `.ico` support
+- Custom App Name mapping per `.exe`
+- Toggle Desktop Icons with fade in/out
+- Hidden window stack manager
+- Dark mode settings GUI
+- DPI-aware rendering
 
 
 
