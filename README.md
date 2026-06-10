@@ -504,10 +504,10 @@ _ chrome.exe|Browser, notepad.exe|Note, code.exe|VS Code
 
 Every 50ms, the bar detects the foreground window's process, looks up its exe name in the custom name stack, and displays your label instead of the raw exe name — no exe needs to be running beforehand.
 
-**Why the exe name is pre-filled by default**
+## Why the exe name is pre-filled by default?
 At startup, the script auto-registers its own exe name mapped to `MyStart`, so the bar always shows *MyStart* when the launcher is focused. It checks for duplicates first, then appends `yourexename|MyStart` if not already present.
 
-**How MyStart tracking follows the current exe name**
+## How MyStart tracking follows the current exe name?
 The active app tracker reads the real process list every cycle, strips `.exe`, and does a lowercase key lookup against your custom stack. Since the key is always the bare exe name, it matches correctly regardless of what the compiled binary is named. Results are cached per PID and only re-resolved when the focused app changes.
 
 <table>
