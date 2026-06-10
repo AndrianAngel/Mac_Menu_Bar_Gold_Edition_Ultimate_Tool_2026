@@ -1,7 +1,7 @@
 <div align="center">
 
 # ❤️ MAC MENU BAR — GOLD EDITION
-### A macOS-style menu bar for Windows — built with AutoIt
+### A macOS-style menu bar for Windows
 **Version 1.0.4.3 · Release 26-06-09**
 © AndrianAngel — All rights reserved
 
@@ -18,13 +18,6 @@
 | `MyVDW.rmskin` | Rainmeter skin for Virtual Desktop integration |
 | `MyVDW.zip` | Same Rainmeter skin packaged as a zip archive |
 | `Icons.zip` | Icon pack — includes `a1.ico` for the top-left MyStart button |
-
----
-
-| File | Description |
-|------|-------------|
-| `Mac_Menu_Bar_Gold_Edition_Release_26_06_09_FINAL_V1_0_4_3.exe` | Standalone 64-bit executable — run directly, no install needed |
-| `Mac_Menu_Bar_Gold_Edition_Release_26_06_09_FINAL_V1_0_4_3.zip` | Archive containing the same 64-bit executable |
 
 > Single instance enforced — only one copy runs at a time.
 
@@ -499,6 +492,31 @@ Live clock displayed on the bar's right side. Can be enabled/disabled from Advan
 
 
 ![D7](Gif/D7.gif)
+
+___
+
+## 🏷️ Custom App Name
+
+Define display name mappings using the format `exe|Display Name`, comma-separated:
+
+_ chrome.exe|Browser, notepad.exe|Note, code.exe|VS Code
+
+
+Every 50ms, the bar detects the foreground window's process, looks up its exe name in the custom name stack, and displays your label instead of the raw exe name — no exe needs to be running beforehand.
+
+**Why the exe name is pre-filled by default**
+At startup, the script auto-registers its own exe name mapped to `MyStart`, so the bar always shows *MyStart* when the launcher is focused. It checks for duplicates first, then appends `yourexename|MyStart` if not already present.
+
+**How MyStart tracking follows the current exe name**
+The active app tracker reads the real process list every cycle, strips `.exe`, and does a lowercase key lookup against your custom stack. Since the key is always the bare exe name, it matches correctly regardless of what the compiled binary is named. Results are cached per PID and only re-resolved when the focused app changes.
+
+<table>
+  <tr>
+    <td><img src="Images/T3.png" width="400"/></td>
+    <td><img src="Images/A3.png" width="400"/></td>
+  </tr>
+</table>
+
 
 ---
 
